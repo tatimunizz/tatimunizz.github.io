@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "Double Choc!",
+        "img": "img/donut0.png",
+        "price": 40,
+        "description": "Black and White chocolate.",
+        "display" : 0
+    },
+    {
+	"id" : 1, 
+	"name": "Creaminal", 
+	"img": "img/donut1.png", 
+	"price" : 40, 
+	"description" : "Creamy cream.", 
+	"display" : 0
+	},
+    {
+	"id" : 2, 
+	"name": "Unicorn", 
+	"img": "img/donut2.png", 
+	"price" : 40, 
+	"description" : "A classic strawberry.", 
+	"display" : 0
+	},
+    {
+        "id" : 3,
+        "name": "Showcolate",
+        "img": "img/donut3.png",
+        "price" : 40,
+        "description" : "D"id"  you say chocolate? Yes!",
+        "display" : 0
+    },
+    {
+        "id" : 4,
+        "name": "Party Dude",
+        "img": "img/donut4.png",
+        "price" : 40,
+        "description" : "White chocolate land, where M&M's ara having a party.",
+        "display" : 0
+    },
+    {
+	"id" : 5, 
+	"name": "Berry-happy", 
+	"img": "img/donut5.png", 
+	"price" : 40, 
+	"description" : "Blueberry happy.", 
+	"display" : 0
+	}
+]
