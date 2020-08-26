@@ -1,0 +1,77 @@
+<!--
+Project by Tati Muniz (tatimunizz <https://github.com/tatimunizz>)
+
+I started this project after finishing a Javascript course, so please
+let me know if you have any comments or hints on possible improvements.
+Thanks in advance!
+
+I've used:
+    HTML, CSS, JAVASCRIPT and JSON (API)
+    IDE: JetBrains Webstorm 2020.2
+    Images: Donut Vectors by Vecteezy <"https://www.vecteezy.com/free-vector/donut">
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Shop</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="template">
+    <div class="donut-template">
+        <!-- "d-" to identify the donut class related items  -->
+        <div class="d-img"><img src=""/></div>
+        <div class="d-amount-box">
+            <button class="d-a-less">-</button>
+            <div class="d-a-display">0</div>
+            <button class="d-a-more">+</button>
+        </div>
+        <div class="d-price">--</div>
+        <div class="d-name">--</div>
+        <div class="d-description">--</div>
+    </div>
+</div>
+<main>
+    <h1>Donut menu</h1>
+    <!--    donut-grid: for displaying the donut template -->
+    <div class="donut-grid"></div>
+    <!--    cart-menu: right side cart div -->
+    <div class="cart-area">
+            <h1> Your donuts!</h1>
+            <div class="cart- subtotal">
+                Subtotal: <span>--</span>
+            </div>
+            <div class="cart- discount">
+                Discount: (10%) <span>--</span>
+            </div>
+            <div class="cart- total">
+                Total: <span>--</span>
+            </div>
+            <div class="button">Check out</div>
+    </div>
+    <!-- chek out pop-up -->
+    <div class="pop-up">
+        <div class="pop-up-area">
+            <div class="pop-up-info">
+                <h1>Check out</h1>
+                <div class="cart-">Your name: <input type="text" id="client-input" value=""/>
+                </div>
+                <div class="cart- total-pop-up">Total: <span>--</span></div>
+                <div class="button pop-up-button">Place your order!</div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Website made by Tati Muniz.</p>
+        <a href="https://www.vecteezy.com/free-vector/donut">Donut Vectors by Vecteezy</a>
+    </footer>
+</main>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
